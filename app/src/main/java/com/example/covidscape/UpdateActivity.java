@@ -1,5 +1,8 @@
 package com.example.covidscape;
 
+import android.app.Fragment;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -84,5 +87,14 @@ public class UpdateActivity extends AppCompatActivity {
                 }
             }
         });
+
+        cancelBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //insert "redirect back to fragment" here
+            }
+        });
+
     }
+
 }
