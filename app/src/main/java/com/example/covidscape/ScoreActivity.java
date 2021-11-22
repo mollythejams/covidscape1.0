@@ -71,12 +71,6 @@ public class ScoreActivity extends AppCompatActivity {
                     System.out.println("userXP: "+userXP);
 
                     updateXP(score,userXP, dbRef, userProfile);
-//                    newXP=xpEarned+userXP;
-//                    Map<String, Object> pointsUpdate = new HashMap<>();
-//                    pointsUpdate.put(userID+"/userXP", newXP);
-//                    dbRef.updateChildren(pointsUpdate);
-
-
                 }
             }
             @Override
