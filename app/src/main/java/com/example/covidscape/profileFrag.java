@@ -49,14 +49,14 @@ public class profileFrag extends Fragment {
         //button sound effect for fragment
         final MediaPlayer mediaplayer = MediaPlayer.create(getActivity(),R.raw.pop);
 
-//        updateBtn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent =  new Intent(getActivity(),updateProfile.class);
-//                startActivity(intent);
-//                mediaplayer.start();
-//            }
-//        });
+        updateBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent =  new Intent(getActivity(),UpdateActivity.class);
+                startActivity(intent);
+                mediaplayer.start();
+            }
+        });
 
         logoutBtn.setOnClickListener(new View.OnClickListener() {
             @Override

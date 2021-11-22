@@ -27,13 +27,13 @@
         <activity android:name=".sopOutdoor"></activity>
         <activity android:name=".login"></activity>
         <activity android:name=".quiz"></activity>
-        <activity android:name=".Signup"></activity>
         <activity android:name=".loadingQuiz"></activity>
         <activity android:name=".ScoreActivity"></activity>
         <activity android:name=".QuizActivity"></activity>
         <activity android:name=".pop" android:theme="@style/Theme.AppCompat.transparent_bg"></activity>
         <activity android:name=".covidNews" ></activity>
         <activity android:name=".forgotPassword" ></activity>
+        <activity android:name=""></activity>
 <!--        <activity android:name=".updateProfile"></activity>-->
 
 
