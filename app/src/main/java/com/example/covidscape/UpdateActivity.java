@@ -1,3 +1,5 @@
+package com.example.covidscape;
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
